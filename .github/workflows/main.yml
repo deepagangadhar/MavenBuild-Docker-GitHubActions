@@ -1,4 +1,4 @@
-name: build java Application and push to Docker
+name: build java Application and push to Docker 
 on:
  push:
 jobs:
