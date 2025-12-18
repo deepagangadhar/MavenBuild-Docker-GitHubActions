@@ -1,4 +1,4 @@
-name: build java Application and push to Docker 
+name: build java Application and push to Docker
 on:
  push:
 jobs:
@@ -27,6 +27,5 @@ jobs:
      # docker build -t myimage01 .  
           context: . # location where the dockerfile is in current directory
           push: true
-          tags: user/app:latest
-   
-
+          tags: deepagangadhar/myjavaapp
+  
